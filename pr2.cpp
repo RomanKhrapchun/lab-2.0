@@ -5,19 +5,19 @@ using namespace std;
 
 int main()
 {
-	double a;
-	double z1;
-	//double z2;
+	double a; // input parameter
+	double z1; // the result of calculating the 1st expression
+	double z2; // the result of calculating the 2nd expression
 
 	cout << "a ="; 
 	cin >> a;
 
 	z1 = (sin(a) + sin(5 * a) - sin(3 * a)) / (cos(a) - cos(3 * a) + cos(5 * a));
-	//z2 = tan(3 * a);
+	z2 = tan(3 * a);
 
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
-	//cout << "z2 = " << z2 << endl;
+	cout << "z2 = " << z2 << endl;
 
 	cin.get();
 	return 0;
